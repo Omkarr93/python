@@ -1,1 +1,2 @@
-Hi learning pandas
+import numpy as np
+impo
