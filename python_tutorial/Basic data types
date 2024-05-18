@@ -1,0 +1,11 @@
+Basic data types 
+
+int - integer 
+float 2.17
+str  ""
+list [1,2,3]
+dict {key:value}
+tuples (a,b,1)
+set ()
+boolean - True false 
+ 

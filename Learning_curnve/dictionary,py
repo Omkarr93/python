@@ -1,0 +1,11 @@
+dict = {'name' : 'Omkar',
+        'age': 27,
+         'address': 'Kolhapur' }
+
+for i in dict.values() :
+    print([i])
+
+dict.update({'name':'Rohan'})
+dict.update('a': 1,'b':2)
+
+print(dict)
