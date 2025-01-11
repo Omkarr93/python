@@ -1,0 +1,34 @@
+[
+    {
+        "Registry": "TestRegistry1",
+        "MicroserviceHost": "localhost",
+        "MicroservicePort": "8080",
+        "From": "2024-01-01",
+        "To": "2024-12-31",
+        "PostgresHost": "127.0.0.1",
+        "PostgresPort": "5432",
+        "PostgresUser": "admin",
+        "PostgresPassword": "password123",
+        "JiraProject": "PROJECT1",
+        "Management": "Management_DB1",
+        "Measure": "Measure_DB1",
+        "JanusHost": "127.0.0.2",
+        "SplitBy": "year"
+    },
+    {
+        "Registry": "TestRegistry2",
+        "MicroserviceHost": "server2",
+        "MicroservicePort": "9090",
+        "From": "2023-01-01",
+        "To": "2023-12-31",
+        "PostgresHost": "192.168.1.10",
+        "PostgresPort": "5432",
+        "PostgresUser": "user2",
+        "PostgresPassword": "securePass",
+        "JiraProject": "PROJECT2",
+        "Management": "Management_DB2",
+        "Measure": "Measure_DB2",
+        "JanusHost": "192.168.1.20",
+        "SplitBy": null
+    }
+]
