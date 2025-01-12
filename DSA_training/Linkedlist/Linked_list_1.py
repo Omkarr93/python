@@ -64,6 +64,22 @@ class LinkedList:
             return
          node.next = self.head
          self.head = node
+
+    def insert_at_end(self,data):
+        node = Node(data)
+        if self.head is None :
+            self.insert_at_begining(data)
+            return
+        self.tail.next = node
+        self.tail = node
+        return True
+    
+    def insert_values_list(self,list):
+        for i in list :
+            self.insert_value(i)
+        return
+    
+
              
 
         
@@ -71,17 +87,22 @@ class LinkedList:
 
 # Example usage:
 s = LinkedList()
+t = LinkedList()
+k = LinkedList()
+s.insert_values_list([91,92])
+t.insert_values_list([9,10,11])
 
-# # Insert values
-# s.insert_value(30)
-# s.insert_value(40)
-# s.insert_value(50)
+s.print()
+t.print()
 
-# # Print the list
-# s.print()
-# print(s.length)
-s.print()
-# s.pop()
-# s.print()
-s.insert_at_begining(12)
-s.print()
+itr = s.head
+itr2 = t.head
+while itr and itr2 :
+    print(itr.data)
+    print(itr2.data)
+    sum =  itr.data + itr2.data
+    k.insert_value(sum)
+
+    itr = itr.next
+    itr2 = itr2.next
+k.print()
