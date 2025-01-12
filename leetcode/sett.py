@@ -4,7 +4,7 @@ def intersect(nums1: list[int], nums2: list[int]) -> list[int]:
         nums2.sort()
         # print(nums1,nums2)
         ans = []
-        i, j = 0, 0
+        i, j = 0, 0 
         n, m = len(nums1), len(nums2)
         print(n,m)
 
