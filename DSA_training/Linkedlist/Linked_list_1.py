@@ -82,27 +82,27 @@ class LinkedList:
 
              
 
-        
+if __name__ == "__main__":        
 
 
 # Example usage:
-s = LinkedList()
-t = LinkedList()
-k = LinkedList()
-s.insert_values_list([91,92])
-t.insert_values_list([9,10,11])
+    s = LinkedList()
+    t = LinkedList()
+    k = LinkedList()
+    s.insert_values_list([1,4])
+    t.insert_values_list([3,2])
 
-s.print()
-t.print()
+    s.print()
+    t.print()
 
-itr = s.head
-itr2 = t.head
-while itr and itr2 :
-    print(itr.data)
-    print(itr2.data)
-    sum =  itr.data + itr2.data
-    k.insert_value(sum)
+    itr = s.head
+    itr2 = t.head
+    while itr and itr2 :
+        print(itr.data)
+        print(itr2.data)
+        sum =  itr.data + itr2.data
+        k.insert_value(sum)
 
-    itr = itr.next
-    itr2 = itr2.next
-k.print()
+        itr = itr.next
+        itr2 = itr2.next
+    k.print()
