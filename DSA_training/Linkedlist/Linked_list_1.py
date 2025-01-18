@@ -40,7 +40,6 @@ class LinkedList:
             self.length -= 1 
             return 
 
-
         temp = self.head
         pre = None
 
